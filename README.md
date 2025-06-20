@@ -2,7 +2,7 @@
 
 A Flask-based REST API that uses machine learning to classify URLs as either benign or malicious. This service leverages a pre-trained transformer model to provide real-time URL threat assessment.
 
-## �� Features
+## ✨ Features
 
 - **Real-time URL Classification**: Instantly classify URLs as benign or malicious
 - **Machine Learning Powered**: Uses the `rocker417/malicious-url-detection` transformer model
@@ -69,7 +69,7 @@ A Flask-based REST API that uses machine learning to classify URLs as either ben
    python app.py
    ```
 
-## �� API Usage
+## 📚 API Documentation
 
 ### Endpoint: `POST /scan`
 
@@ -130,7 +130,7 @@ console.log(`Classification: ${result.label}`);
 console.log(`Confidence: ${result.score}`);
 ```
 
-## �� Configuration
+## 🔧 Configuration
 
 ### Environment Variables
 
