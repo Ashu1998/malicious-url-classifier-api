@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  ai:
+    build:
+      context: .
+    container_name: malicious-url-api
+    ports:
+      - "8999:8999"
+
+    restart: unless-stopped
